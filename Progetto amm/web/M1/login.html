@@ -6,11 +6,24 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Accedi - Nerdbook</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Corronca Andrea">
     </head>
     <body>
-        <div>TODO write content</div>
+        <nav>
+            <a href="descrizione.html">Vai a Descrizione</a>
+            <a href="profilo.html">Vai a Profilo</a>
+            <a href="bacheca.html">Vai a Bacheca</a>
+        </nav>
+        <h1>Accesso</h1>
+        <form action="login.html" method="post">
+               <label for="Nickname">Nome Utente</label>
+               <input type="text" name="Nickname" id="Nickname">
+               <label for="password">password</label>
+               <input type="password" name="password" id="password">
+               <button type="submit">conferma</button>
+        </form>
     </body>
 </html>
