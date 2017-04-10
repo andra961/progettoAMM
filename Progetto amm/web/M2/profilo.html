@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Profilo - Nerdbook</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Corronca Andrea">
+    </head>
+    <body>
+        <nav>
+            <a href="login.html">Login gratuito*</a>
+            <a href="descrizione.html">Vai a descrizione</a>
+        </nav>
+        <h1>Completa il tuo profilo inserendo i seguenti campi</h1>
+        <form action="profilo.html" method="post">
+               <label for="nome">Nome</label>
+               <input type="text" name="nome" id="nome">
+               <label for="cognome">Cognome</label>
+               <input type="text" name="cognome" id="cognome">
+               <label for="immagine">URL immagine</label>
+               <input type="text" name="immagine" id="immagine">
+               <label for="frase">Frase di presentazione</label>
+               <textarea rows="4" cols="20" name="frase" id="frase"></textarea>
+               <label for="nascita">Data di nascita</label>
+               <input type="date" name="nascita" id="nascita">
+               <label for="password1">Password</label>
+               <input type="password" name="password1" id="password1">
+               <label for="password2">Conferma password</label>
+               <input type="password" name="password2" id="password2">
+               <button type="submit">conferma</button>
+        </form>
+    </body>
+</html>
