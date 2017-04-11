@@ -70,7 +70,7 @@ body{
 
 .barleft{
     width: 257px;
-    height: 1100px;
+    height: 1456px;
     float: left;
     margin-left: 5px;
     border-left: 3px solid #E9967A;
@@ -89,7 +89,8 @@ body{
 }
 
 .autore{
-    border: 3px solid #E9967A;
+    border-top: 3px solid #E9967A;
+    border-bottom: 3px solid #E9967A;
     height: 120px;
 }
 
@@ -102,7 +103,7 @@ body{
 }
 
 .nome-prof{
-    margin-left:90 px;
+    margin-left: 90px;
 }
 
 a:link{
