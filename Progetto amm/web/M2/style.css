@@ -14,13 +14,14 @@ body{
     font-family:sans-serif;
 }
 
-.boh{
-    font-size: 30px;
+.post{
     padding-top: 80px;
+    font-size: 30px;
     padding-bottom: 80px;
     padding-left: 30px;
     padding-right: 30px;
-    border: 3px solid #E9967A;
+    border-bottom: 3px solid #E9967A;
+    border-right: 3px solid #E9967A;
 }
 
 .img{
@@ -28,7 +29,7 @@ body{
 }
 
 .navigation{
-    width: 850px;
+    float: top;
     height:100px;
     border: 3px solid #E9967A;
     margin-left: 5px;
@@ -69,15 +70,39 @@ body{
 
 .barleft{
     width: 257px;
-    height: 800px;
+    height: 1100px;
     float: left;
     margin-left: 5px;
-    border: 3px solid #E9967A;
+    border-left: 3px solid #E9967A;
+    border-right: 3px solid #E9967A;
+    border-bottom: 3px solid #E9967A;
     
 }
 
 .barright{
     margin-left: 268px;
+}
+
+.account{
+    font-size: 10px;
+    border: 3px solid #E9967A;
+}
+
+.autore{
+    border: 3px solid #E9967A;
+    height: 120px;
+}
+
+.img-prof{
+    height: 80px;
+    margin-left: 40px;
+    float:left;
+    margin: 20px;
+    border: 3px solid #E9967A;
+}
+
+.nome-prof{
+    margin-left:90 px;
 }
 
 a:link{
