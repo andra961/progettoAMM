@@ -9,26 +9,85 @@ and open the template in the editor.
 */
 
 body{
-    background-color: #DDDDDD;
-    color: #000000;
+    background-color: white;
+    color: #2F4F4F;
     font-family:sans-serif;
 }
 
-h1 {
-    color: #CC3300;
-
-    border-top: 3px solid #CC3300;
+.boh{
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid #E9967A;
 }
 
-
-h2{
-    color: #CC3300;
-
-    border-bottom: 3px solid #CC3300;
+.img{
+    float:left;
 }
 
-h3{
-    color: #CC3300;
+.navigation{
+    width: 850px;
+    height:100px;
+    border: 3px solid #E9967A;
+    margin-left: 5px;
+}
 
-    border-top: 1px solid #CC3300;
+.title{
+    padding-left: 60px;
+    font-size: 30px;
+    height: 100px;
+    width: 197px;
+    border-right: 3px solid #E9967A;
+    float:left;
+}
+
+.bar{
+    font-size: 30px;
+    height: 100px;
+    width: 590px;
+    margin-left: 260px;
+}
+
+.bar1{
+    float:left;
+    padding: 20px;
+    width: 255px;
+    height: 60px;
+    
+}
+
+.bar2{
+    padding: 20px;
+    border-left: 3px solid #E9967A;
+    width: 255px;
+    margin-left: 255px;
+    height: 60px;
+
+}
+
+.barleft{
+    width: 257px;
+    height: 800px;
+    float: left;
+    margin-left: 5px;
+    border: 3px solid #E9967A;
+    
+}
+
+.barright{
+    margin-left: 268px;
+}
+
+a:link{
+    font-size: 30px;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:link:hover{
+    font-size: 50px;
 }
