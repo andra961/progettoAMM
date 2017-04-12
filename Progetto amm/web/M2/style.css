@@ -61,13 +61,6 @@ and open the template in the editor.
         padding-top: 30px;
     }
 
-    .barProfile{
-        float: left;
-        border-left: 3px solid #E9967A;
-        height: 100px;
-        padding-left: 900px;
-    }
-
     .bar3{
         float: left;
         border-left: 3px solid #E9967A;
@@ -235,13 +228,6 @@ and open the template in the editor.
         padding-top: 30px;
     }
 
-    .barProfile{
-        float: left;
-        border-left: 3px solid #E9967A;
-        height: 100px;
-        padding-left: 900px;
-    }
-
     .bar3{
         float: left;
         border-left: 3px solid #E9967A;
@@ -392,43 +378,29 @@ and open the template in the editor.
     .bar1{
         float:left;
         width: 100px;
-        height: 40px;   
+        height: 70px;   
         text-align: center;
-        padding-top: 30px;
     }
 
     .bar2{
         float: left;
         border-left: 3px solid #E9967A;
         width: 100px;
-        height: 40px;
-        text-align: center;
-        padding-top: 30px;
-    }
-
-    .barProfile{
-        float: left;
-        border-left: 3px solid #E9967A;
         height: 70px;
-        width: 100px;
-        text-align: justify;
+        text-align: center;
     }
 
     .bar3{
         float: left;
         border-left: 3px solid #E9967A;
         width: 100px;
-        height: 40px;
+        height: 70px;
         text-align: center;
-        padding-top: 30px;
+
     }
 
     .barleft{
         border: 3px solid #E9967A;
-    }
-
-    .barright{
-   
     }
 
     .account{
@@ -494,7 +466,7 @@ and open the template in the editor.
     }
 
     a:link{
-        font-size: 15x;
+        font-size: 15px;
     }
 
     a:visited{
