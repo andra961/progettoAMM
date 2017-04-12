@@ -24,10 +24,6 @@ body{
     border-right: 3px solid #E9967A;
 }
 
-.img{
-    float:left;
-}
-
 .navigation{
     float: top;
     height:100px;
@@ -36,47 +32,59 @@ body{
 }
 
 .title{
-    padding-left: 60px;
     font-size: 30px;
-    height: 100px;
-    width: 197px;
+    height: 70px;
+    width: 257px;
     border-right: 3px solid #E9967A;
     float:left;
+    text-align: center;
+    padding-top: 30px;
 }
 
-.bar{
-    font-size: 30px;
-    height: 100px;
-    width: 590px;
-    margin-left: 260px;
-}
 
 .bar1{
     float:left;
-    padding: 20px;
     width: 255px;
-    height: 60px;
-    
+    height: 70px;   
+    text-align: center;
+    padding-top: 30px;
 }
 
 .bar2{
-    padding: 20px;
+    float: left;
     border-left: 3px solid #E9967A;
     width: 255px;
-    margin-left: 255px;
-    height: 60px;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+}
 
+.barProfile{
+    float: left;
+    border-left: 3px solid #E9967A;
+    height: 100px;
+    padding-left: 900px;
+}
+
+.bar3{
+    float: left;
+    border-left: 3px solid #E9967A;
+    width: 255px;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .barleft{
-    width: 257px;
-    height: 1456px;
+    width: 222px;
+    height: 1419px;
     float: left;
     margin-left: 5px;
     border-left: 3px solid #E9967A;
     border-right: 3px solid #E9967A;
     border-bottom: 3px solid #E9967A;
-    
+    padding-left: 35px;
+    padding-top: 50px;
 }
 
 .barright{
@@ -84,7 +92,7 @@ body{
 }
 
 .account{
-    font-size: 10px;
+    font-size: 20px;
     border: 3px solid #E9967A;
 }
 
@@ -104,6 +112,55 @@ body{
 
 .nome-prof{
     margin-left: 90px;
+}
+
+h1{
+    font-size: 40px;
+    margin: 0px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.form{
+    margin: 50px auto;
+    border: 3px solid #E9967A;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.invia{
+    margin-top: 33px;
+}
+
+label:before{
+    content: '\A';
+    white-space: pre;
+}
+
+
+.Nerdbook{
+    margin: 60px auto;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+}
+
+.formProfilo{
+    margin-left: 263px;
+    padding: 30px;
+    font-size: 30px;
 }
 
 a:link{
