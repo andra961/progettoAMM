@@ -8,169 +8,500 @@ and open the template in the editor.
     Author     : Andrea Corronca
 */
 
-body{
-    background-color: white;
-    color: #2F4F4F;
-    font-family:sans-serif;
+@media only screen and (min-width: 1024px)
+{
+    body{
+        background-color: white;
+        color: #2F4F4F;
+        font-family:sans-serif;
+    }
+
+    .post{
+        padding-top: 80px;
+        font-size: 30px;
+        padding-bottom: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-bottom: 3px solid #E9967A;
+        border-right: 3px solid #E9967A;
+    }
+
+    .navigation{
+        float: top;
+        height:100px;
+        border: 3px solid #E9967A;
+        margin-left: 5px;
+    }
+
+    .title{
+        font-size: 30px;
+        height: 70px;
+        width: 257px;
+        border-right: 3px solid #E9967A;
+        float:left;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+
+    .bar1{
+        float:left;
+        width: 255px;
+        height: 70px;   
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .bar2{
+        float: left;
+        border-left: 3px solid #E9967A;
+        width: 255px;
+        height: 70px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .barProfile{
+        float: left;
+        border-left: 3px solid #E9967A;
+        height: 100px;
+        padding-left: 900px;
+    }
+
+    .bar3{
+        float: left;
+        border-left: 3px solid #E9967A;
+        width: 255px;
+        height: 70px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .barleft{
+        width: 222px;
+        height: 1419px;
+        float: left;
+        margin-left: 5px;
+        border-left: 3px solid #E9967A;
+        border-right: 3px solid #E9967A;
+        border-bottom: 3px solid #E9967A;
+        padding-left: 35px;
+        padding-top: 50px;
+    }
+
+    .barright{
+        margin-left: 268px;
+    }
+
+    .account{
+        font-size: 20px;
+        border: 3px solid #E9967A;
+    }
+
+    .autore{
+        border-top: 3px solid #E9967A;
+        border-bottom: 3px solid #E9967A;
+        height: 120px;
+    }
+
+    .img-prof{
+        height: 80px;
+        margin-left: 40px;
+        float:left;
+        margin: 20px;
+        border: 3px solid #E9967A;
+    }
+
+    .nome-prof{
+        margin-left: 90px;
+    }
+
+    h1{
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .form{
+        margin: 50px auto;
+        border: 3px solid #E9967A;
+        width: 200px;
+        height: 200px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    label:before{
+        content: '\A';
+        white-space: pre;
+    }
+
+
+    .Nerdbook{
+        margin: 60px auto;
+        text-align: center;
+    }
+
+    button{
+        width: 100%;
+        height: 50px;
+        margin-top: 33px;
+    }
+
+    .formProfilo input{
+        width: 600px;
+        margin-left: 100px;
+    }
+
+    .formProfilo{
+        margin-left: 263px;
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    a:link{
+        font-size: 30px;
+    }
+
+    a:visited{
+        color: purple;
+    }
+
+    a:link:hover{
+        font-size: 35px;
+    }
 }
 
-.post{
-    padding-top: 80px;
-    font-size: 30px;
-    padding-bottom: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-bottom: 3px solid #E9967A;
-    border-right: 3px solid #E9967A;
+
+@media only screen and (min-width: 480px)
+                   and (max-width: 1024px)
+{
+    body{
+        background-color: white;
+        color: #2F4F4F;
+        font-family:sans-serif;
+        }
+
+    .post{
+        padding-top: 80px;
+        font-size: 30px;
+        padding-bottom: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-bottom: 3px solid #E9967A;
+        border-right: 3px solid #E9967A;
+    }
+
+    .navigation{
+        float: top;
+        height:100px;
+        border: 3px solid #E9967A;
+        margin-left: 5px;
+    }
+
+    .title{
+        font-size: 30px;
+        height: 70px;
+        width: 257px;
+        border-right: 3px solid #E9967A;
+        float:left;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+
+    .bar1{
+        float:left;
+        width: 255px;
+        height: 70px;   
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .bar2{
+        float: left;
+        border-left: 3px solid #E9967A;
+        width: 255px;
+        height: 70px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .barProfile{
+        float: left;
+        border-left: 3px solid #E9967A;
+        height: 100px;
+        padding-left: 900px;
+    }
+
+    .bar3{
+        float: left;
+        border-left: 3px solid #E9967A;
+        width: 255px;
+        height: 70px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .barleft{
+        width: 222px;
+        height: 1419px;
+        float: left;
+        margin-left: 5px;
+        border-left: 3px solid #E9967A;
+        border-right: 3px solid #E9967A;
+        border-bottom: 3px solid #E9967A;
+        padding-left: 35px;
+        padding-top: 50px;
+    }
+
+    .barright{
+        margin-left: 268px;
+    }
+
+    .account{
+        font-size: 20px;
+        border: 3px solid #E9967A;
+    }
+
+    .autore{
+        border-top: 3px solid #E9967A;
+        border-bottom: 3px solid #E9967A;
+        height: 120px;
+    }
+
+    .img-prof{
+        height: 80px;
+        margin-left: 40px;
+        float:left;
+        margin: 20px;
+        border: 3px solid #E9967A;
+    }
+
+    .nome-prof{
+        margin-left: 90px;
+    }
+
+    h1{
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .form{
+        margin: 50px auto;
+        border: 3px solid #E9967A;
+        width: 200px;
+        height: 200px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    label:before{
+        content: '\A';
+        white-space: pre;
+    }
+
+
+    .Nerdbook{
+        margin: 60px auto;
+        text-align: center;
+    }
+
+    button{
+        width: 100%;
+        height: 50px;
+        margin-top: 33px;
+    }
+
+    .formProfilo input{
+        width: 600px;
+        margin-left: 100px;
+    }
+
+    .formProfilo{
+        margin-left: 263px;
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    a:link{
+        font-size: 30px;
+    }
+
+    a:visited{
+        color: purple;
+    }
+
+    a:link:hover{
+        font-size: 35px;
+    }
 }
 
-.navigation{
-    float: top;
-    height:100px;
-    border: 3px solid #E9967A;
-    margin-left: 5px;
-}
+@media only screen and (max-width: 480px)
+{
+    body{
+        background-color: white;
+        color: #2F4F4F;
+        font-family:sans-serif;
+    }
 
-.title{
-    font-size: 30px;
-    height: 70px;
-    width: 257px;
-    border-right: 3px solid #E9967A;
-    float:left;
-    text-align: center;
-    padding-top: 30px;
-}
+    .post{
+        padding-top: 80px;
+        font-size: 30px;
+        padding-bottom: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 3px solid #E9967A;
+    }
 
+    .navigation{
+        float: top;
+        height: 70px;
+        width: 100%;
+        border: 3px solid #E9967A;
+        font-size: 20px;
+    }
 
-.bar1{
-    float:left;
-    width: 255px;
-    height: 70px;   
-    text-align: center;
-    padding-top: 30px;
-}
-
-.bar2{
-    float: left;
-    border-left: 3px solid #E9967A;
-    width: 255px;
-    height: 70px;
-    text-align: center;
-    padding-top: 30px;
-}
-
-.barProfile{
-    float: left;
-    border-left: 3px solid #E9967A;
-    height: 100px;
-    padding-left: 900px;
-}
-
-.bar3{
-    float: left;
-    border-left: 3px solid #E9967A;
-    width: 255px;
-    height: 70px;
-    text-align: center;
-    padding-top: 30px;
-}
-
-.barleft{
-    width: 222px;
-    height: 1419px;
-    float: left;
-    margin-left: 5px;
-    border-left: 3px solid #E9967A;
-    border-right: 3px solid #E9967A;
-    border-bottom: 3px solid #E9967A;
-    padding-left: 35px;
-    padding-top: 50px;
-}
-
-.barright{
-    margin-left: 268px;
-}
-
-.account{
-    font-size: 20px;
-    border: 3px solid #E9967A;
-}
-
-.autore{
-    border-top: 3px solid #E9967A;
-    border-bottom: 3px solid #E9967A;
-    height: 120px;
-}
-
-.img-prof{
-    height: 80px;
-    margin-left: 40px;
-    float:left;
-    margin: 20px;
-    border: 3px solid #E9967A;
-}
-
-.nome-prof{
-    margin-left: 90px;
-}
-
-h1{
-    font-size: 40px;
-    margin: 0px;
-}
-
-h2{
-    font-size: 20px;
-}
-
-h3{
-    font-size: 15px;
-    text-decoration: underline;
-}
-
-.form{
-    margin: 50px auto;
-    border: 3px solid #E9967A;
-    width: 200px;
-    height: 200px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.invia{
-    margin-top: 33px;
-}
-
-label:before{
-    content: '\A';
-    white-space: pre;
-}
+    .title{
+        font-size: 10px;
+        height: 70px;
+        width: 100px;
+        border-right: 3px solid #E9967A;
+        float:left;
+        text-align: center;
+    }
 
 
-.Nerdbook{
-    margin: 60px auto;
-    text-align: center;
-}
+    .bar1{
+        float:left;
+        width: 100px;
+        height: 40px;   
+        text-align: center;
+        padding-top: 30px;
+    }
 
-button{
-    width: 100%;
-    height: 50px;
-}
+    .bar2{
+        float: left;
+        border-left: 3px solid #E9967A;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        padding-top: 30px;
+    }
 
-.formProfilo{
-    margin-left: 263px;
-    padding: 30px;
-    font-size: 30px;
-}
+    .barProfile{
+        float: left;
+        border-left: 3px solid #E9967A;
+        height: 70px;
+        width: 100px;
+        text-align: justify;
+    }
 
-a:link{
-    font-size: 30px;
-}
+    .bar3{
+        float: left;
+        border-left: 3px solid #E9967A;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        padding-top: 30px;
+    }
 
-a:visited{
-    color: purple;
-}
+    .barleft{
+        border: 3px solid #E9967A;
+    }
 
-a:link:hover{
-    font-size: 50px;
+    .barright{
+   
+    }
+
+    .account{
+        font-size: 20px;
+        border: 3px solid #E9967A;
+    }
+
+    .autore{
+        border-top: 3px solid #E9967A;
+        border-bottom: 3px solid #E9967A;
+        height: 120px;
+    }
+
+    .img-prof{
+        height: 80px;
+        margin-left: 40px;
+        float:left;
+        margin: 20px;
+        border: 3px solid #E9967A;
+    }
+
+    .nome-prof{
+        margin-left: 90px;
+    }
+
+    
+    .form{
+        margin: 50px auto;
+        border: 3px solid #E9967A;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    label:before{
+        content: '\A';
+        white-space: pre;
+    }
+
+
+    .Nerdbook{
+        margin: 60px auto;
+        text-align: center;
+    }
+
+    button{
+        width: 100%;
+        height: 50px;
+        margin-top: 33px;
+    }
+
+    .formProfilo input{
+        width: 150px;
+        margin-left: 50px;
+    }
+
+    .formProfilo{
+        font-size: 20px;
+    }
+    
+    h1,h2,h3{
+        font-size: 20px;
+    }
+
+    a:link{
+        font-size: 15x;
+    }
+
+    a:visited{
+        color: purple;
+    }
+
+    a:link:hover{
+        font-size: 25px;
+    }
 }
